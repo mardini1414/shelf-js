@@ -1,5 +1,5 @@
 export type TConstructor = {
-  containerElement: HTMLElement | null;
+  containerElement: HTMLDivElement | null;
   allowed?: string;
   onOverClass?: string;
   onChange?: (data: TShelfData) => void;

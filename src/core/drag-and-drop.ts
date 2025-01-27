@@ -2,7 +2,7 @@ import { DRAGGABLE_SELECTOR, DROPPABLE_SELECTOR, IS_DRAGGING_SELECTOR } from '..
 import { TShelfData, TConstructor } from '../types';
 
 export class DragAndDrop {
-  private containerElement: HTMLElement | null;
+  private containerElement: HTMLDivElement | null;
   private dataKey: string | null = null;
   private dataItemKey: string | null = null;
   private dataItemIndex: number | null = null;
@@ -203,7 +203,7 @@ export class DragAndDrop {
     ).element;
   }
 
-  private checkContainerElement(element: HTMLElement | null) {
+  private checkContainerElement(element: HTMLDivElement | null) {
     if (!element) {
       throw Error('Container not exists');
     }

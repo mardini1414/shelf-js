@@ -3,7 +3,7 @@ import DragAndDrop from '../core';
 import { TUseShelfParams } from '../types';
 
 export default function useShelf({ allowed, onOverClass, onChange }: TUseShelfParams = {}) {
-  const ref = useRef<HTMLElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
   const dragAndDrop = useRef<DragAndDrop | null>(null);
 
   useEffect(() => {
