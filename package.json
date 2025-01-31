@@ -1,7 +1,7 @@
 {
   "name": "@mardinidev/shelf-js",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple drag and drop for React js",
   "author": {
     "name": "Mardini",
