@@ -8,7 +8,7 @@ export class DragAndDrop {
   private dataItemIndex: number | null = null;
   private allowed?: string;
   private onOverClass?: string;
-  private onChange?: ((data: TShelfData) => void) | null;
+  private onChange?: (data: TShelfData) => void;
   private onDragOver: (event: Event) => void;
   private onDragLeave: (event: Event) => void;
   private onDrop: (event: Event) => void;
@@ -40,6 +40,10 @@ export class DragAndDrop {
 
   public setAllowed(allowed?: string) {
     this.allowed = allowed;
+  }
+
+  public setOnChange(onChange?: (data: TShelfData) => void) {
+    this.onChange = onChange;
   }
 
   private addEvenListenerToDroppableElement() {

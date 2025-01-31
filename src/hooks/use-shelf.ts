@@ -17,6 +17,7 @@ export default function useShelf({ allowed, onOverClass, onChange }: TUseShelfPa
     }
 
     dragAndDrop.current?.setAllowed(allowed);
+    dragAndDrop.current?.setOnChange(onChange);
     dragAndDrop.current?.init();
 
     return () => {
