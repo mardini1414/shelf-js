@@ -2,6 +2,10 @@
 
 Simple drag and drop for React js
 
+## Status: Experimental 🚧
+
+This library is still in the early stages of development.
+
 ## Feature
 
 - drag and drop
