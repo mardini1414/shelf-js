@@ -1,5 +1,5 @@
 import { DRAGGABLE_SELECTOR, DROPPABLE_SELECTOR, IS_DRAGGING_SELECTOR } from '../constants';
-import { TShelfData, TConstructor } from '../types';
+import { TConstructor, TShelfData } from '../types';
 
 export class DragAndDrop {
   private containerElement: HTMLDivElement | null;
