@@ -76,6 +76,7 @@ css
   color: white;
   border-radius: 8px;
   margin-bottom: 0.2rem;
+  cursor: move;
 }
 
 .over {
